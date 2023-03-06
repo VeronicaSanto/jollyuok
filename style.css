@@ -69,7 +69,11 @@ body {
     align-items: center;
     margin: 0 30%;
 }
-.box {
+.map {
     display: flex;
+}
+.box {
+    border: 1px solid;
+    padding: 10px;
     background: #802000;
 }
