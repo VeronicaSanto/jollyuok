@@ -60,12 +60,14 @@ body {
     justify-content: space-between;
     text-align: center;
     align-items: center;
+    margin: 0 30%;
 }
 .about {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
     margin: 0 30%;
     max-width: 800px;
 }
