@@ -1,1 +1,55 @@
-style.css
+<style>
+body {
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    background-color: #aaa;
+}
+.menu {
+    align-items: center;
+}
+.menu li {
+    display: inline;
+}
+
+.section {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1abc9c;
+}
+.cover {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin: 30px 30px 30px 30px;
+    background-color: #aaa;
+}
+.payoff {
+    padding: 30px;
+    margin: 30px 30px 30px 30px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background: #ddd;
+}
+</style>
