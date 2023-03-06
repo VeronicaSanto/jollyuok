@@ -4,7 +4,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    background-color: black;
+    font-family: Cabin, Roboto, Tahoma, Verdana, Arial, sans-serif;
 }
 .navbar {
     display: flex;
@@ -48,6 +48,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 25px;
     background: #e6e6e6;
     color:  #666666;
 }
@@ -95,7 +96,6 @@ body {
     text-align: center;
     align-items: center;
     margin: 0 30%;
-       font color: #666666;
 }
 .cards {
     display: flex;
