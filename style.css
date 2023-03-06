@@ -4,15 +4,14 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    font-family: Cabin, Roboto, Tahoma, Verdana, Arial, sans-serif;
+    background-color: black;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #802000;
-    color: #ffc266;
+    padding: 30px;
+    background-color: white;
 }
 .logo {
     display: flex;
@@ -24,14 +23,15 @@ body {
 }
 .menu li {
     display: inline;
-    padding: 5px;
 }
 
 .section {
     display: flex;
     width: 100%;
     height: 100%;
-    background-color: #f2f2f2;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1abc9c;
 }
 .cover {
     display: flex;
@@ -49,58 +49,5 @@ body {
     justify-content: center;
     align-items: center;
     padding: 25px;
-    background: #e6e6e6;
-    color:  #666666;
-}
-
-.home {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    margin: 0 30%;
-}
-.map {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-.colonnasinistra {
-    display: flex;
-    flex-direction: column;
-}
-.colonnadestra {
-    display: flex;
-    flex-direction: column;
-}
-.box {
-    display: flex;
-    align-items: center;
-    padding: 30px;
-    margin: 30px 30px 30px 30px;
-    background-color: #aaa;
-}
-.line {
-    display: flex;
-    align-items: center;
-    align-content: stretch;
-    align-self: center;
-    padding: 10px 5px 100px 5px;
-    margin: 30px;
-    background-color: #aaa;
-}
-.about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin: 0 30%;
-}
-.cards {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    background: #ddd;
 }
