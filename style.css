@@ -71,9 +71,13 @@ body {
 }
 .map {
     display: flex;
+    align-items: center;
 }
 .box {
     border: 1px solid;
     padding: 10px;
     background: #802000;
+}
+.box li {
+    display: inline;
 }
