@@ -82,3 +82,11 @@ body {
     margin: 30px 30px 30px 30px;
     background-color: #aaa;
 }
+.line {
+    display: flex;
+    align-items: center;
+    align-content: stretch;
+    padding: 30px;
+    margin: 30px 30px 30px 30px;
+    background-color: #aaa;
+}
