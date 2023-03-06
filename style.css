@@ -82,10 +82,17 @@ body {
     margin: 30px 30px 30px 30px;
     background-color: #aaa;
 }
+.box1 {
+    align-items: flex-start;
+}
+.box2 {
+    align-items: flex-end;
+}
 .line {
     display: flex;
     align-items: center;
     align-content: stretch;
+    align-self: center;
     padding: 10px 5px 100px 5px;
     margin: 30px;
     background-color: #aaa;
