@@ -77,11 +77,11 @@ body {
 }
 .colonnasinistra {
     display: flex;
-    flex-direction: column;
+    flex-direction: 
 }
 .colonnadestra {
     display: flex;
-    flex-direction: column;
+    flex-direction: 
 }
 .box {
     display: flex;
