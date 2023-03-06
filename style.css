@@ -24,6 +24,7 @@ body {
 }
 .menu li {
     display: inline;
+    padding: 5px;
 }
 
 .section {
