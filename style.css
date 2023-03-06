@@ -13,6 +13,7 @@ body {
     align-items: center;
     padding: 20px;
     background-color: #802000;
+    color: #ffc266;
 }
 .logo {
     display: flex;
