@@ -5,6 +5,7 @@ body {
     height: 100%;
     margin: 0;
     background-color: black;
+    font-family: Cabin, Roboto, Tahoma, Verdana, Arial, sans-serif;
 }
 .navbar {
     display: flex;
