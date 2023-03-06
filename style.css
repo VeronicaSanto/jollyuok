@@ -71,9 +71,7 @@ body {
 }
 .map {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 30%;
+
 }
 .box {
     border: 1px solid;
