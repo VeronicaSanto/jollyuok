@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #a52a2a;
+    background-color: #802000;
 }
 .logo {
     display: flex;
@@ -51,5 +51,5 @@ body {
     justify-content: center;
     align-items: center;
     padding: 25px;
-    background: #a52a2a;
+    background: #802000;
 }
