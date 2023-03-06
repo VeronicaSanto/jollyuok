@@ -75,17 +75,20 @@ body {
     text-align: center;
     align-items: center;
 }
-.box {
+.box1 {
     display: flex;
     align-items: center;
     padding: 30px;
     margin: 30px 30px 30px 30px;
     background-color: #aaa;
-}
-.box1 {
     align-items: flex-start;
 }
 .box2 {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin: 30px 30px 30px 30px;
+    background-color: #aaa;
     align-items: flex-end;
 }
 .line {
