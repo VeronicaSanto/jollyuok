@@ -61,14 +61,6 @@ body {
     align-items: center;
     margin: 0 30%;
 }
-.about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin: 0 30%;
-}
 .map {
     display: flex;
     justify-content: center;
@@ -98,4 +90,18 @@ body {
     padding: 10px 5px 100px 5px;
     margin: 30px;
     background-color: #aaa;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 30%;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
