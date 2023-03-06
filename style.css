@@ -75,6 +75,14 @@ body {
     text-align: center;
     align-items: center;
 }
+.colonnasinistra {
+    display: flex;
+    flex-direction: column;
+}
+.colonnadestra {
+    display: flex;
+    flex-direction: column;
+}
 .box {
     display: flex;
     align-items: center;
