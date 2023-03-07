@@ -26,7 +26,6 @@ body {
     display: inline;
     padding: 5px;
 }
-
 .section {
     display: flex;
     width: 100%;
@@ -60,13 +59,6 @@ body {
     text-align: center;
     align-items: center;
     margin: 0 30%;
-}
-.cover {
-    display: flex;
-    align-items: center;
-    padding: 40px;
-    margin: 30px 30px 0px 30px;
-    background-color: #aaa;
 }
 .map {
     display: flex;
@@ -118,4 +110,16 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
+}
+.animals {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 30px 30px 30px 30px;
+}
+.cover {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #aaa;
 }
