@@ -65,6 +65,7 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin: 10% 39% 10%;
 }
 .colonnasinistra {
     display: flex;
@@ -90,6 +91,9 @@ body {
     margin: 30px;
     background-color: #aaa;
 }
+.aboutback {
+    overflow: auto;
+}
 .about {
     display: flex;
     flex-direction: column;
@@ -97,7 +101,9 @@ body {
     text-align: center;
     align-items: center;
     color:  #808080;
-    margin: 0 30%;
+    margin: 2% 30%;
+    word-wrap: break-word;
+    overflow: auto;
 }
 .about h3 {
     color: #404040;
