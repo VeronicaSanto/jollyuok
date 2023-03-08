@@ -84,37 +84,38 @@ body {
 }
 .box {
     display: flex;
+    justify-content: center;
+    text-align: center;
     align-items: center;
-    padding: 60px;
+    padding: 100px;
     margin: 30px 30px 30px 30px;
-    background-color: #aaa;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 50px 5px 30px 30px
-}
+    border-radius: 50px 5px 30px 30px;
+    color:  #ffffff;
+ }
 .box2 {
     display: flex;
+    justify-content: center;
+    text-align: center;
     align-items: center;
-    padding: 60px;
+    align-items: center;
+    padding: 100px;
     margin: 30px 30px 30px 30px;
-    background-color: #aaa;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 5px 50px 30px 30px
+    border-radius: 5px 50px 30px 30px;
+    color:  #ffffff;
 }
 .boxhidden {
     display: flex;
     align-items: center;
-    padding: 60px;
+    padding: 100px;
     margin: 30px 30px 30px 30px;
     visibility: hidden;
 }
 .line {
-    display: flex;
-    align-items: center;
-    align-content: stretch;
-    align-self: center;
-    padding: 10px 5px 100px 5px;
-    margin: 30px;
-    background-color: #aaa;
+    border: 2px dashed #e6e6e6;
+    padding-top: 172%;
+    padding-bottom: 172%;
 }
 .aboutback {
     overflow: auto;
@@ -156,4 +157,12 @@ body {
     flex-direction: column;
     padding: 40px;
     background-color: #aaa;
+}
+
+/*
+@media screen (max-width: 900px) {
+    .line {
+        padding-top: 444%;
+        padding-bottom: 444%;
+    }
 }
