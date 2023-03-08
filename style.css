@@ -141,37 +141,37 @@ body {
     color: #404040;
 }
 .cardsback {
-    width: 100%;
-    height: 100%;
     overflow: auto;
 }
 .cardsback::-webkit-scrollbar {
     display: none;
+    word-wrap: break-word;
+    overflow: auto;
 }
 .cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     align-items: center;
+    color:  #808080;
+    margin: 1% 19%;
 }
 .cardstext {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-.animals {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    margin: 30px 30px 30px 30px;
+    text-align: left;
+    margin-top: 2%;
 }
 .cover {
     display: flex;
-    flex-direction: column;
-    padding: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     background-color: #aaa;
+    padding: 180px;
+    margin-left: 8%;
+    margin-top: 7%;
+
 }
 
 /*
