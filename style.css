@@ -60,12 +60,19 @@ body {
     align-items: center;
     margin: 0 30%;
 }
+.mapback {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.mapback::-webkit-scrollbar {
+    display: none;
+}
 .map {
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin: 10% 39% 10%;
 }
 .colonnasinistra {
     display: flex;
@@ -78,9 +85,27 @@ body {
 .box {
     display: flex;
     align-items: center;
-    padding: 30px;
+    padding: 60px;
     margin: 30px 30px 30px 30px;
     background-color: #aaa;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50px 5px 30px 30px
+}
+.box2 {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    margin: 30px 30px 30px 30px;
+    background-color: #aaa;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px 50px 30px 30px
+}
+.boxhidden {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    margin: 30px 30px 30px 30px;
+    visibility: hidden;
 }
 .line {
     display: flex;
@@ -93,6 +118,9 @@ body {
 }
 .aboutback {
     overflow: auto;
+}
+.aboutback::-webkit-scrollbar {
+    display: none;
 }
 .about {
     display: flex;
