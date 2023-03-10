@@ -49,7 +49,7 @@ body {
     text-align: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 113%;
     background-image: url('https://wallpapercave.com/wp/wp7637609.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;  
@@ -61,14 +61,16 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin: 0 30%;
+}
+.payoff {
+    margin-bottom: 17%;
 }
 
 /* Map */
 .mapsection {
     display: flex;
     width: 100%;
-    height: 75%;
+    height: 87%;
     background: #ffffff;
 }
 .mapback {
@@ -109,7 +111,7 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding: 60px;
+    padding: 50px;
     margin: 30px 30px 30px 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 50px 5px 30px 30px;
@@ -125,7 +127,7 @@ body {
     text-align: center;
     align-items: center;
     align-items: center;
-    padding: 60px;
+    padding: 50px;
     margin: 30px 30px 30px 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px 50px 30px 30px;
@@ -138,14 +140,14 @@ body {
 .boxhidden {
     display: flex;
     align-items: center;
-    padding: 60px;
+    padding: 50px;
     margin: 30px 30px 30px 30px;
     visibility: hidden;
 }
 .line {
     border: 2px dashed #e6e6e6;
-    padding-top: 160%;
-    padding-bottom: 160%;
+    padding-top: 147%;
+    padding-bottom: 147%;
 }
 #bradipomap {
     object-fit: contain;
@@ -271,13 +273,13 @@ body {
     text-align: center;
     align-items: center;
     color:  #808080;
-    margin: 1% 19%;
+    margin: 4% 19%;
 }
 .cardstext {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 .cardstext h2 {
     color: #404040;
@@ -315,7 +317,7 @@ body {
     }
 
     .line {
-        padding-top: 452%;
-        padding-bottom: 452%;
+        padding-top: 411%;
+        padding-bottom: 411%;
     }
 }
