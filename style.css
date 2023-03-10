@@ -273,7 +273,7 @@ body {
     text-align: center;
     align-items: center;
     color:  #808080;
-    margin: 4% 19%;
+    margin: 2% 19%;
 }
 .cardstext {
     display: flex;
@@ -301,6 +301,7 @@ body {
 .cover:hover {
     transition: .5s ease;
     opacity: 0.5;
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
 }
 
 /* Responsive */
