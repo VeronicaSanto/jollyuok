@@ -26,6 +26,10 @@ body {
     display: inline;
     padding: 5px;
 }
+.menu ul li a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
 .menu li:hover {
     border-bottom: 3px solid #ffc266;
     padding-bottom: 5px;
@@ -122,6 +126,14 @@ body {
     border-radius: 50px 5px 30px 30px;
     color:  #ffffff;
 }
+.box a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+.box2 a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
  .box:hover {
     transition: .5s ease;
     opacity: 0.5;
@@ -161,12 +173,12 @@ body {
     100% {
       transform: translateY(0);
     }
-  }
-#bradipomap {
+}
+#alligatoremap {
     object-fit: contain;
     background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
 }
-#bonobomap {
+#bradipomap {
     object-fit: contain;
     background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
 }
@@ -191,6 +203,10 @@ body {
     background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
 }
 #medusamap {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#orcamap {
     object-fit: contain;
     background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
 }
@@ -231,10 +247,6 @@ body {
     background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
 }
 #tassomap {
-    object-fit: contain;
-    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
-}
-#vombatidemap {
     object-fit: contain;
     background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
 }
@@ -309,14 +321,8 @@ body {
     margin-top: 7%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 50px;
-    object-fit: contain;
     animation: 1s ease-out 0s 1 slideInFromLeft2;
-    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
-}
-.cover:hover {
-    transition: .5s ease;
-    opacity: 0.5;
-    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+    object-fit: contain;
 }
 @keyframes slideInFromLeft {
     0% {
@@ -325,7 +331,7 @@ body {
     100% {
       transform: translateX(0);
     }
-  }
+}
 @keyframes slideInFromLeft2 {
     0% {
       transform: translateX(100%);
@@ -333,7 +339,146 @@ body {
     100% {
       transform: translateX(0);
     }
-  }
+}
+#alligatorecards {
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#alligatorecards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#bradipocards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#bradipocards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#camaleontecards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#camaleontecards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#delfinocards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#delfinocards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#dugongocards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#dugongocards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#koalacards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#koalacards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#lumacacards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#lumacacards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#medusacards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#medusacards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#orcacards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#orcacards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#ornitorincocards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#ornitorincocards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#pandacards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#pandacards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#pinguinocards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#pinguinocards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#pipistrellocards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#pipistrellocards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#polpocards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#polpocards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#quokkacards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#quokkacards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#ragnocards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#ragnocards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#serpentecards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#serpentecards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#squalocards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#squalocards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#tassocards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#tassocards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
+#zanzaracards {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#zanzaracards:hover {
+    background-image: url("https://www.green.it/wp-content/uploads/2022/12/quokka.jpg");
+}
 
 /* Responsive */
 @media only screen and (max-width: 600px) {
