@@ -162,11 +162,11 @@ body {
       transform: translateY(0);
     }
   }
-#bradipomap {
+#alligatoremap {
     object-fit: contain;
     background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
 }
-#bonobomap {
+#bradipomap {
     object-fit: contain;
     background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
 }
@@ -191,6 +191,10 @@ body {
     background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
 }
 #medusamap {
+    object-fit: contain;
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
+}
+#orcamap {
     object-fit: contain;
     background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
 }
@@ -231,10 +235,6 @@ body {
     background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
 }
 #tassomap {
-    object-fit: contain;
-    background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
-}
-#vombatidemap {
     object-fit: contain;
     background-image: url("https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Sharks.jpg");
 }
