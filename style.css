@@ -348,6 +348,9 @@ body {
 .cards a {
     text-decoration: none !important;
 }
+.cards b {
+    color: #ffc266;
+}
 @keyframes slideInFromLeft {
     0% {
       transform: translateX(-100%);
